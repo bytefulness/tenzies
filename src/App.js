@@ -23,7 +23,7 @@ export default function App() {
 
       setRollCount(0);
     }
-    console.log(highScore);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dice]);
 
   function generateNewDie() {
