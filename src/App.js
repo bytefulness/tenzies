@@ -83,7 +83,7 @@ export default function App() {
         current value between rolls.
       </p>
       <h3 className="high-score">
-        High Score: {highScore ? highScore + ' Roll' : '👀'}
+        🏆 High Score: {highScore ? highScore + ' Roll' : '__'}
       </h3>
       <h3 className="rolled">
         {rollCount ? `You rolled ${rollCount} times` : ''} 🎲

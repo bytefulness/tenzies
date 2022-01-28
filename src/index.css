@@ -56,10 +56,10 @@ main {
 }
 
 .high-score {
-  background: #c5bdfc;
+  border: 2px solid #0b2434;
   padding: 12px 24px;
-  border-radius: 8px;
-  color: #745ffa;
+  border-radius: 24px;
+  color: #0b2434;
 }
 
 .dice-container {
